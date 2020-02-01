@@ -4,17 +4,29 @@ section {
 }
 
 section:nth-of-type(even) {
-    background-color: #4677ff;
+    /* background-color: #4677ff; */
+    background-color: #0091c6;
 }
 
+body {
+    background-image: url(../img/blockchain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Main Description */
+
 /* #main-description {
-    background: url("/img/blockchain.jpg");
+    background-image: url(../img/blockchain.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 } */
 
 .main-description-content {
     flex-direction: column;
     text-align: left;
     padding: 1vh 10vw;
+    color: rgb(177, 235, 254);
 }
 
 .main-description-content h1 {
@@ -26,7 +38,7 @@ section:nth-of-type(even) {
 }
 
 .sign-up-button {
-    background-color: rgb(108, 0, 176);
+    background-color: rgb(0, 136, 186);
     border-radius: 30px;
     width: 196px;
     height: 43px;
@@ -44,6 +56,8 @@ section:nth-of-type(even) {
 
 .badges img {
     width: 150px;
+    border: 2px solid white;
+    border-radius: 30px;
 }
 
 .badges img:hover {
@@ -51,10 +65,18 @@ section:nth-of-type(even) {
     transition: 0.1s;
 }
 
+/* Top Features */
+
 .top-features {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+}
+
+.top-features h2 {
+    font-size: xx-large;
+    padding-bottom: 3vh;
 }
 
 .top-features-features {
@@ -69,8 +91,29 @@ section:nth-of-type(even) {
 }
 
 .top-features-features img {
-    width: 100px;
+    padding: 1.5vh 0;
+    height: 11vh;
 }
+
+/* table {
+    width: 60%;
+}
+    
+th:nth-child(1) {
+    width: 40%;
+    }
+    
+th:nth-child(2) {
+    width: 30%;
+    }
+    
+th:nth-child(3) {
+    width: 15%;
+    }
+    
+th:nth-child(4) {
+    width: 15%;
+} */
 
 @media screen and (max-width: 650px) {
     .main-description-content h1 {
@@ -78,7 +121,7 @@ section:nth-of-type(even) {
     }
 
     .badges img {
-        width: 130px;
+        width: 120px;
     }
 
     .top-features-features {
