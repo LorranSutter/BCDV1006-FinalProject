@@ -1,16 +1,66 @@
-.badges > img {
-    width: 200px;
+section {
+    display: flex;
+    padding: 7vh 3vw 7vh 3vw;
 }
 
-.section-odd {
-    background-color: lightgray;
+section:nth-of-type(even) {
+    background-color: lightgray ;
+}
+
+.main-description-content {
+    flex-direction: column;
+    text-align: left;
+    padding: 1vh 10vw;
+}
+
+.main-description-content h1 {
+    font-size: 5em;
+}
+
+.main-description-content > * {
+    margin: 3vh 0;
+}
+
+.sign-up-button {
+    background-color: rgb(108, 0, 176);
+    border-radius: 30px;
+    width: 196px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.sign-up-button:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.badges img {
+    width: 150px;
+}
+
+.badges img:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
 }
 
 .top-features {
-    display: flex;
     text-align: center;
 }
 
 .top-features > div {
     flex-grow: 1;
+}
+
+@media screen and (max-width: 650px) {
+    .main-description-content h1 {
+        font-size: 3em;
+    }
+
+    .badges img {
+        width: 130px;
+    }
 }

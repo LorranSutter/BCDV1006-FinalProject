@@ -23,7 +23,7 @@
     text-decoration: none;
 }
 
-.nav-bar > a, a:visited, a:hover, a:active {
+.nav-bar > a{
     color: inherit;
     background-color: inherit;
 }

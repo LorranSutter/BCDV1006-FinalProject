@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background: linear-gradient(120deg, rgb(0, 140, 255), rgb(199, 12, 199));
+    background: linear-gradient(120deg, rgba(0, 140, 255, 0.85), rgba(199, 12, 199, 0.85));
 }
 
 .contact-form {
