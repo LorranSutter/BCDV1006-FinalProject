@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
@@ -38,25 +38,20 @@
             </div >
             <div class="top-features-features">
                 <div>
-                    <div>
-                        <img src="img/Controller02.jpg" alt="Parallel transactions">
-                    </div>
+                    <img src="img/ParallelTransactionWhite.png" alt="Parallel transactions">
                     <div>
                         Parallel transactions
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <img src="img/Controller02.jpg" alt="Asset equivalence">
-                    </div>
+                    <img src="img/DiamondWhite.png" alt="Asset equivalence">
                     <div>
                         Asset equivalence
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <img src="img/Controller02.jpg" alt="Transaction receipt">
-                    </div>
+                    <!-- Thanks to https://www.colourbox.com/vector/pos-terminal-with-credit-card-and-receipt-outline-icon-vector-31837804 -->
+                    <img src="img/TransactionReceiptWhite.png" alt="Transaction receipt">
                     <div>
                         Transaction receipt
                     </div>
@@ -64,9 +59,14 @@
             </div>
         </section>
         <section id="hash" class="hash">
-            <p>Hash Transaction</p>
-            <br>
-            <script src="js/hash.js"></script>
+            <table id=table-hash class="table-hash">
+                <tr>
+                    <th id="col-hash">Hash</th>
+                    <th id="col-date">Date/Hour</th>
+                    <th id="col-send">Send</th>
+                    <th id="col-receive">Receive</th>
+                </tr>
+            </table>
         </section>
     </main>
     <footer id="footer">
@@ -75,5 +75,6 @@
         </div>
     </footer>
     <script src="js/general.js"></script>
+    <script src="js/hash.js"></script>
 </body>
 </html>
