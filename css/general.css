@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Navigation bar */
@@ -8,7 +9,7 @@
 .nav-bar {
     position: fixed;
     width: 100%;
-    background-color: lightgray;
+    background-color: snow;
 
     display: flex;
     flex-direction: row;
@@ -28,7 +29,7 @@
 }
 
 .nav-link:hover, #burger-icon:hover {
-    background-color: gray;
+    background-color: rgb(200, 200, 200);
     color: white;
 }
 
@@ -87,7 +88,9 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-    background-color: lightgray;
+    background-color: snow;
+
+    font-size: smaller;
 }
 
 .company-info {
