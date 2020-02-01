@@ -35,7 +35,7 @@ img {
 
 .video-responsive {
     width: 100%;
-    height: 315px;
+    height: 450px;
 }
 
 figcaption {
@@ -77,6 +77,11 @@ hr {
 
     section .flex-text > p,li {
         text-align: justify !important;
+    }
+
+    .video-responsive {
+        width: 380px;
+        height: 300px;
     }
 
     .figcaption-right, .figcaption-left {
