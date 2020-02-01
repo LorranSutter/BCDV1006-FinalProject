@@ -1,8 +1,7 @@
 section {
     display: flex;
     align-items: center;
-    text-align: center;
-    padding: 10vh 5vw 10vh 5vw;
+    padding: 7vh 3vw 7vh 3vw;
 }
 
 section > div {
@@ -12,6 +11,18 @@ section > div {
 
 section .flex-text {
     flex: 1;
+}
+
+section .flex-text > * {
+    padding: 0 0 1em 0;
+}
+
+section .flex-text:nth-of-type(odd) {
+    text-align: left;
+}
+
+section .flex-text:nth-of-type(even) {
+    text-align: right;
 }
 
 section .flex-image {
@@ -27,6 +38,30 @@ img {
     height: 315px;
 }
 
+figcaption {
+    color: #474747;
+    font-size: smaller;
+}
+
+.figcaption-right {
+    text-align: right;
+}
+
+.figcaption-left {
+    text-align: left;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(150, 150, 150, 0.75), rgba(0, 0, 0, 0));
+    /* Thanks to https://codepen.io/sparlos/pen/LOqEWY */
+}
+
+#hyperledger * {
+    list-style-type: none;
+}
+
 @media screen and (max-width: 650px) {
     section {
         flex-direction: column;
@@ -34,5 +69,17 @@ img {
 
     section > div {
         margin: 2vh 2vw 2vh 2vw;
+    }
+
+    section .flex-text > h2 {
+        text-align: center !important;
+    }
+
+    section .flex-text > p,li {
+        text-align: justify !important;
+    }
+
+    .figcaption-right, .figcaption-left {
+        text-align: center !important;
     }
 }
