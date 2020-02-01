@@ -4,7 +4,7 @@ section {
 }
 
 section:nth-of-type(even) {
-    background-color: lightgray ;
+    background-color: #4677ff;
 }
 
 /* #main-description {
@@ -52,11 +52,24 @@ section:nth-of-type(even) {
 }
 
 .top-features {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.top-features > div {
+.top-features-features {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.top-features-features > div {
     flex-grow: 1;
+}
+
+.top-features-features img {
+    width: 100px;
 }
 
 @media screen and (max-width: 650px) {
@@ -66,5 +79,13 @@ section:nth-of-type(even) {
 
     .badges img {
         width: 130px;
+    }
+
+    .top-features-features {
+        flex-direction: column;
+    }
+
+    .top-features-features > div {
+        padding: 1em;
     }
 }
