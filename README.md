@@ -4,6 +4,6 @@ Static web site presented as final project for the course BCDV1006 - Full Stack 
 
 <div align="center">
 
-![Image](https://drive.google.com/uc?export=view&id=1COyMhwCT0yFD5BNxtNr3ZJzTXHIDF34I)
+![Preview](https://drive.google.com/uc?export=view&id=1COyMhwCT0yFD5BNxtNr3ZJzTXHIDF34I)
 
 </div>
