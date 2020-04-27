@@ -6,6 +6,6 @@ Static web site presented as final project for the course BCDV1006 - Full Stack 
 
 <!-- ![Preview](https://drive.google.com/uc?export=view&id=1COyMhwCT0yFD5BNxtNr3ZJzTXHIDF34I) -->
 
-![Preview](https://drive.google.com/uc?export=view&id=1COyMhwCT0yFD5BNxtNr3ZJzTXHIDF34I)
+![Preview](https://raw.githubusercontent.com/LorranSutter/Freedom-by-chaining-up/master/site_preview.gif)
 
 </div>
