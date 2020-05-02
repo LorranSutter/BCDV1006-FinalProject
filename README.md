@@ -1,6 +1,10 @@
 # Freedom by chaining-up!
 
-Static web site presented as final project for the course BCDV1006 - Full Stack Development I from [Blockchain Development](https://www.georgebrown.ca/programs/blockchain-development-program-t175/) program from [George Brown College](https://www.georgebrown.ca)
+Final project for the course BCDV1006 - Full Stack Development I from [Blockchain Development](https://www.georgebrown.ca/programs/blockchain-development-program-t175/) program from [George Brown College](https://www.georgebrown.ca)
+
+---
+
+Static web site presented as final assignment using HTML5, CSS3 and vanilla JS. Based on the final project presented on the course BCDV1001 - Introduction to Blockchain. It consists of a platform which allows gamers connect their game accounts in order to sell, buy and trade game assets.
 
 <div align="center">
 
