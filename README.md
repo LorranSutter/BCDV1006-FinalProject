@@ -16,7 +16,7 @@ Static web site presented as final assignment using HTML5, CSS3 and vanilla JS. 
 
 </div>
 
-## Resources and Technologies
+## :computer: Resources and Technologies
 - [Final Assignment - BCDV1001](https://drive.google.com/file/d/1CQZWTo7N4vliZXRFV4m0hd2VNEdJs6BG/view?usp=sharing)
 - [HTML5](https://www.w3schools.com/html/html5_intro.asp)
 - [CSS](https://www.w3schools.com/css/)
