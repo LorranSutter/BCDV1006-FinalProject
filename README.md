@@ -2,7 +2,7 @@
 
 Final project for the course BCDV1006 - Full Stack Development I from [Blockchain Development](https://www.georgebrown.ca/programs/blockchain-development-program-t175/) program from [George Brown College](https://www.georgebrown.ca)
 
-This is a simples static web site, but also you can check an extendend version with Node and MongoDB [here](https://github.com/LorranSutter/Freedom-by-chaining-up-Node).
+This is a simple static web site, but also you can check an extendend version with Node and MongoDB [here](https://github.com/LorranSutter/Freedom-by-chaining-up-Node).
 
 ---
 
